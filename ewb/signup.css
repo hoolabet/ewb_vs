@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+}
+
+#btns{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+}
+
+#signup_entry{
+    width: 100%;
+    position: relative;
+}
+
+#header{
+    height: 200px;
+    width: 100%;
+    background-color: gray;
+    position: relative;
+    top: 0px;
+    margin: auto;
+}
+
+#footer{
+    height: 200px;
+    width: 100%;
+    background-color: gray;
+    position: relative;
+    bottom: 0px;
+    margin: auto;
+}
+
+#signup_content{
+    height: 1500px;
+    width: 100%;
+    background-color: rgb(236, 228, 228);
+    margin: auto;
+    position: relative;
+}
