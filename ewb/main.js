@@ -1,6 +1,7 @@
 $("#save").on("click", function(){
     $("#header_style").val($("#header").attr("style"));
     $("#footer_style").val($("#footer").attr("style"));
+    $(".buttons").toggle();
     localStorage.setItem("main",$("#main_entry").html());
     localStorage.setItem("header",$("#header").html());
     localStorage.setItem("footer",$("#footer").html());
@@ -10,6 +11,7 @@ $("#save").on("click", function(){
 })
 $("#load").on("click", function(){
     $("#main_entry").html(localStorage.getItem("main"));
+    $(".buttons").toggle();
     alert("불러오기를 실행했습니다.");
     afterLoadRemoveElement();
     afterLoadCreateHome();
